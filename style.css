@@ -1,5 +1,10 @@
+p {
+  margin: 0;
+}
 .wrapper {
+  box-sizing: border-box;
   margin: 0 auto;
+  padding: 10px;
   width: 100%;
   max-width: 800px;
 }
@@ -8,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
+  flex-wrap: wrap;
 }
 
 .photo {
@@ -26,5 +32,19 @@
 }
 
 .skills-list__item {
+  box-sizing: border-box;
+  padding-right: 20px;
   width: 50%;
+}
+
+.education-level {
+  margin-bottom: 20px;
+}
+
+.education-lever__speciality {
+  font-weight: bold;
+}
+
+.education-lever__organization {
+  font-style: italic;
 }
