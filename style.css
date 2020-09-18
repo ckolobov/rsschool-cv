@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.photo {
+  width: 200px;
+}
+
+.title {
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+}
