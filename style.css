@@ -59,6 +59,11 @@ ul {
   text-align: center;
 }
 
+.heading {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
 .heading--contacts {
   margin: 50px 0 0 0;
 }
@@ -82,7 +87,7 @@ ul {
 }
 
 .education-level {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .education-lever__speciality {
@@ -97,7 +102,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .footer__item {
