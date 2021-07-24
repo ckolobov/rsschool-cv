@@ -1,6 +1,39 @@
 p {
   margin: 0;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+.link--icon {
+  display: block;
+  padding-left: 40px;
+  position: relative;
+  line-height: 32px;
+}
+
+.link--icon::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
+
 .wrapper {
   box-sizing: border-box;
   margin: 0 auto;
@@ -26,19 +59,35 @@ p {
   text-align: center;
 }
 
+.heading {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.heading--contacts {
+  margin: 50px 0 0 0;
+}
+
+.contacts__item {
+  padding: 0;
+  margin-top: 10px;
+  list-style: none;
+}
+
 .skills-list {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 20px;
 }
 
 .skills-list__item {
   box-sizing: border-box;
-  padding-right: 20px;
+  padding-right: 30px;
   width: 50%;
 }
 
 .education-level {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .education-lever__speciality {
@@ -47,4 +96,23 @@ p {
 
 .education-lever__organization {
   font-style: italic;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 60px;
+}
+
+.footer__item {
+  line-height: 32px;
+}
+
+.link-github::before {
+  background-image: url("./assets/img/GitHub-Mark-64px.png");
+}
+
+.link-rsschool img {
+  height: 32px;
 }
