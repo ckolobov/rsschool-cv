@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>CV</title>
 </head>
@@ -23,7 +24,15 @@
       </div>
     </header>
     <main>
-      <section class="skills">
+      <nav class="navigation">
+        <div class="navigation__burger js-navigation-burger"><i class="fa fa-bars"></i></div>
+        <ul class="navigation__block js-navigation-block">
+          <li class="navigation__item"><a class="navigation__link" href="#skills">Skills</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#education">Education</a></li>
+          <li class="navigation__item"><a class="navigation__link" href="#code">Code</a></li>
+        </ul>
+      </nav>
+      <section class="skills" id="skills">
         <h3 class="heading">Skills</h3>
         <ul class="skills-list">
           <li class="skills-list__item">HTML, CSS, JavaScript</li>
@@ -34,7 +43,7 @@
           <li class="skills-list__item">German - Basic</li>
         </ul>
       </section>
-      <section class="education">
+      <section class="education" id="education">
         <h3 class="heading">Education</h3>
         <div class="education-level">
           <p class="education-lever__year">2015</p>
@@ -47,7 +56,7 @@
           <p class="education-lever__organization">St.Petersburg State Polytechnic University, Saint Petersburg</p>
         </div>
       </section>
-      <section class="code">
+      <section class="code" id="code">
         <h3 class="heading">Code</h3>
         <div class="code">
           <p class="code__item">
@@ -69,5 +78,6 @@
       </div>
     </footer>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
